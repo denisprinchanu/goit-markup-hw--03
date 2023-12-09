@@ -82,6 +82,7 @@ list-style: none;
 /* ------------------header-------------------------------------- */
 
 .header {
+    display: flex;
     font-family: "Raleway", sans-serif;
     /* padding-top: 24px; */
     justify-content: center;
@@ -184,8 +185,7 @@ margin-right: 76px;
     letter-spacing: 0.02em;
     color:var(--second-title-color);
     display: flex;
-    align-items: center; 
-    
+    align-items:center; 
     }
     
 .address {
@@ -231,6 +231,7 @@ color:var(--four-title-color);
 }
 
 .first-section {
+    padding: 188px 0;
     background-color:  var(--second-title-color); 
 }
 
@@ -241,18 +242,19 @@ color:var(--four-title-color);
     letter-spacing: 0.02em;
     color: var(--main-title-color);
     /* margin-bottom: 48px; */
-    padding-top: 188px;
-    padding-bottom: 48px;
+    /* padding-top: 188px;
+    padding-bottom: 48px; */
     width: 496px;
     margin-left: auto;
     margin-right: auto;
+    max-width: 496px;
 }
 
 .header-btn {
     background-color: var(--six-title-color);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    
+    height: 56px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color:var(--main-title-color);
@@ -261,22 +263,44 @@ color:var(--four-title-color);
     margin-bottom: 188px; 
     margin-left: 495px;
     margin-right: 495px;
-    display: inline-flex;
-    
+    /* display: inline-flex; */
+    display:block;
     align-items: flex-start;
     gap: 10px;
+    min-width: 169px;
+    border: none;
+    border-radius: 4px;
 }
 
 .header-btn:is(:hover, :focus){
     background-color: var(--four-title-color);
 }
 
+.header-div {
+    display:block;
+}
+
+
+
+
+
+.main-list {
+    display: flex;
+    gap: 24px;
+   
+}
+
+
+
 .main-list-title {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--second-title-color);
+    width: calc((100% - 72px) / 4);
+
     
 }
 
@@ -289,11 +313,23 @@ color:var(--four-title-color);
 }
 
 
+
+/*  =================================== section 2  */
+
+
+
+
+
 .second-section {
     padding-top: 120px;
     padding-bottom: 120px;
 }
 
+
+
+.visually-hidden {
+
+}
 
 
 .title-section-three {
@@ -314,7 +350,7 @@ color:var(--four-title-color);
 
 
 
-/* -----------------------------------section 2 our team --------------------------- */
+/* -----------------------------------section 3 our team --------------------------- */
 
 .team {
     /* background-color: var(--five-title-color); */
@@ -378,7 +414,7 @@ color:var(--main-title-color);
 
 
 
-/* section 3 Our Portfolio */
+/* section 4 Our Portfolio */
 
 
 
