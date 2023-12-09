@@ -12,6 +12,9 @@
     --six-title-color:#4D5AE5;
 }
 
+.img {
+    display: block;
+}
 
 .body{
     font-family:  'Roboto',  sans-serif;
@@ -77,7 +80,7 @@ list-style: none;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-
+    border-bottom: 1px solid #e7e9fc;
 
 }
 
@@ -211,7 +214,7 @@ color:var(--four-title-color);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--main-title-color);
-    margin-bottom: 48px;
+    /* margin-bottom: 48px; */
     padding-top: 188px;
     padding-bottom: 48px;
     width: 496px;
@@ -229,7 +232,7 @@ color:var(--four-title-color);
     color:var(--main-title-color);
     cursor: pointer;
     padding: 16px 32px;
-    margin-bottom: 188px;
+    margin-bottom: 188px; 
     margin-left: 495px;
     margin-right: 495px;
     display: inline-flex;
