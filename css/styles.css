@@ -375,13 +375,33 @@ color:var(--four-title-color);
 }
 
 
+.content-team {
+    padding: 32px 0;
+}
+
+
+
+
 .taem-list {
     background-color: var(--main-title-color);
+    display: flex;
+    gap: 24px;
 }
 
 .person {
     background-color: var(--main-title-color);
 }
+
+
+.person-one {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+
+
+
+
 
 .portfolio-button-items 
 {
@@ -402,6 +422,8 @@ color:var(--main-title-color);
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--second-title-color);
+    text-align: center;
+    margin-bottom: 8px
 }
 
 .second-text {
@@ -410,6 +432,7 @@ color:var(--main-title-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--three-title-color);
+    text-align: center;
 }
 
 
@@ -417,7 +440,13 @@ color:var(--main-title-color);
 /* section 4 Our Portfolio */
 
 
+.project-contant {
 
+padding: 32px 16px; 
+border: 1px solid #e7e9fc;
+border-top: none; 
+
+}
 
 .portfolio {
     padding-top: 120px;
@@ -428,6 +457,10 @@ color:var(--main-title-color);
 
 .portfolio-list  {
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px; 
 }
 
 
@@ -450,6 +483,7 @@ color:var(--main-title-color);
 
 .main-project-text {
     font-weight: 500;
+    margin-bottom: 8px;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -467,18 +501,14 @@ color:var(--main-title-color);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* footer */
+
+.footer-logo { 
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+
 
 
 .footer-text {
