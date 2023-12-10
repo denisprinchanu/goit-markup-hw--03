@@ -551,6 +551,7 @@ align-items: flex-start;
 gap: 8px;
 align-self: stretch;
 border: 1px solid #e7e9fc;
+border-top: none;
 
 }
 
