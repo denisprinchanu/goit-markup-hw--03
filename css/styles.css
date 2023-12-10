@@ -88,6 +88,9 @@ list-style: none;
 
 }
 
+.container-heder {
+    display: flex;
+}
 
 .header-class {
     display: flex;
