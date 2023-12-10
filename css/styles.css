@@ -27,7 +27,7 @@ img {
 
 .container {
    max-width: 1158px;
-    
+   width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -228,6 +228,7 @@ padding: 24px 0;
 
 .contacts-nav {
     display: flex;
+    gap: 40px;
 }
 
 .nav:is(:hover, :focus) {
