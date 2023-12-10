@@ -18,10 +18,6 @@ img {
 
 
 
-
-
-
-
 .body{
     font-family:  'Roboto',  sans-serif;
     color:var(--three-title-color);
@@ -36,7 +32,7 @@ img {
     padding-right: 15px; */
     margin: 0 auto;
     /* outline: 2px solid red; */
-    display: flex;
+    /* display: flex; */
 }
 
 
@@ -92,6 +88,15 @@ list-style: none;
 
 }
 
+
+.header-class {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
 .header-link:is(:hover, :focus) {
     background-color:var(--four-title-color);
     color:var(--main-title-color);
@@ -120,12 +125,6 @@ background-color:var(--five-title-color);
 
 
 
-
-
-
-
-
-
 .header-logo  {
 font-weight: 800;
 font-size: 18px;
@@ -137,6 +136,7 @@ text-transform: uppercase;
 color: var(--six-title-color);
 font-family: "Raleway", sans-serif;
 margin-right: 76px;
+padding: 24px 0;
 
 }
 
@@ -167,6 +167,7 @@ margin-right: 76px;
 
 .header-logo-nav {
     display: flex;
+    align-items:center;
 }
 
 
@@ -194,6 +195,7 @@ margin-right: 76px;
 
 .contacts-item {
     display: flex;
+    align-items:center; 
 }
 
 .contacts-nav {
@@ -204,6 +206,12 @@ margin-right: 76px;
 .nav:is(:hover, :focus) {
     color:var(--four-title-color); 
 }
+
+.address-box {
+    display: flex;
+    gap: 40px;
+}
+
 
 
 
@@ -229,6 +237,15 @@ color: var(--three-title-color);
 .contacts-item:is(:hover, :focus) {
 color:var(--four-title-color);
 }
+
+
+
+
+/* ===================================first section============ */
+
+
+
+
 
 .first-section {
     padding: 188px 0;
@@ -314,7 +331,14 @@ color:var(--four-title-color);
 
 
 
-/*  =================================== section 2  */
+
+
+
+
+
+
+
+/*  =================================== section 2 ============================== */
 
 
 
@@ -325,11 +349,27 @@ color:var(--four-title-color);
     padding-bottom: 120px;
 }
 
-
+.lists {
+    width: calc((100% - 72px) / 4);
+}
 
 .visually-hidden {
-
+    position:absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
+
+
+
+
+
 
 
 .title-section-three {
@@ -440,8 +480,18 @@ color:var(--main-title-color);
 /* section 4 Our Portfolio */
 
 
-.project-contant {
 
+.project-card{
+    width: calc((100% - 48px) / 3);
+}
+
+
+
+
+
+
+
+.project-contant {
 padding: 32px 16px; 
 border: 1px solid #e7e9fc;
 border-top: none; 
@@ -506,6 +556,7 @@ border-top: none;
 .footer-logo { 
     display: inline-block;
     margin-bottom: 16px;
+    color: var(--four-title-color);
 }
 
 
@@ -538,4 +589,5 @@ color: var(--five-title-color);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--five-title-color);
+    /* display: inline-block; */
 }
