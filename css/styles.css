@@ -435,8 +435,11 @@ display: flex;
 }
 
 .team .person {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px ;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius:4px;
     width: calc((100% - 72px) / 4); */
-    border-radius: 0px 0px 4px 4px;
 }
 
 
@@ -621,9 +624,15 @@ border-top: none;
     color: var(--four-title-color);
 }
 
-.footer-text-logo {
+/* .footer-text-logo {
     display: inline-block;
+} */
+
+.footer   .footer-texting {
+    display: inline-block;
+    margin-bottom: 16px;
 }
+
 
 
 .footer-text {
