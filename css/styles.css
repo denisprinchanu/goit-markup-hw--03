@@ -222,10 +222,6 @@ padding: 24px 0;
 
 
 
-
-
-
-
 .contacts-nav {
     display: flex;
     gap: 40px;
@@ -534,7 +530,10 @@ color:var(--main-title-color);
     width: calc((100% - 48px) / 3);
 }
 
-
+.container-four {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+}
 
 
 .project-contant {
