@@ -343,7 +343,7 @@ display: flex;
 
 
 .main-list-title {
-    /* margin-bottom: 8px; */
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px; 
@@ -473,11 +473,12 @@ display: flex;
 
 .person {
     background-color: var(--main-title-color);
+    width: calc((100% - 72px) / 4);
 }
 
 
 .person-one {
-    width: calc((100% - 72px) / 4);
+    
     border-radius: 0px 0px 4px 4px;
 }
 
