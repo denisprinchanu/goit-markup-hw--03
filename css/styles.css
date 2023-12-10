@@ -529,7 +529,7 @@ color:var(--main-title-color);
 
 
 
-.project-card{
+.portfolio .project-card{
     width: calc((100% - 48px) / 3);
 }
 
