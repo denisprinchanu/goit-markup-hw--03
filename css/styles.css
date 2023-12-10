@@ -378,8 +378,13 @@ display: flex;
     padding-top: 120px;
     padding-bottom: 120px;
 }
-
+/* 
 .lists {
+    width: calc((100% - 72px) / 4);
+} */
+
+
+.main-list-paragraf {
     width: calc((100% - 72px) / 4);
 }
 
