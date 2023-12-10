@@ -429,10 +429,12 @@ display: flex;
 /* -----------------------------------section 3 our team --------------------------- */
 .person {
     background-color: var(--main-title-color);
-    width: calc((100% - 72px) / 4);
+    /* width: calc((100% - 72px) / 4); */
 }
 
-
+.team .person {
+    width: calc((100% - 72px) / 4); */
+}
 
 
 
