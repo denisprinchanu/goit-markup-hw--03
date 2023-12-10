@@ -621,7 +621,9 @@ border-top: none;
     color: var(--four-title-color);
 }
 
-
+.footer-text-logo {
+    display: inline-block;
+}
 
 
 .footer-text {
@@ -646,10 +648,11 @@ color: var(--five-title-color);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.16;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--five-title-color);
     /* display: inline-block; */
+    display: inline-block;
 }
